@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the plugin name is visible and correct</description>
+   <name>03_txtlabel_webpage_builder</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3bcaf97-237c-45fd-baeb-d5d31481c731</testCaseGuid>
+</TestCaseEntity>

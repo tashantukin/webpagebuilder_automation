@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify if the font color of title header is white</description>
+   <name>07_fontcolor_title</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f2802a7a-4252-4f1c-b476-d2577983fad0</testCaseGuid>
+</TestCaseEntity>

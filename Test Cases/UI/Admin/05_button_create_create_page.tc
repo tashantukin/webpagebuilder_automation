@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if 'create a page button' is present</description>
+   <name>05_button_create_create_page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>289a2df3-5154-4ec6-b6db-0e23341a59e3</testCaseGuid>
+</TestCaseEntity>

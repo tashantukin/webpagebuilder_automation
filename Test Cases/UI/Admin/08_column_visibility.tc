@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify if Visibility column is present</description>
+   <name>08_column_visibility</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b87b73f8-404a-402f-b9c3-b8c5797f9ffd</testCaseGuid>
+</TestCaseEntity>

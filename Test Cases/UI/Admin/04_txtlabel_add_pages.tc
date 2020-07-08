@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if plugin description is present and correct</description>
+   <name>04_txtlabel_add_pages</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f697157c-a4fd-4ff1-80df-8aaa9caa2feb</testCaseGuid>
+</TestCaseEntity>

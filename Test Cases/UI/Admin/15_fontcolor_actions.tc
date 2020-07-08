@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify if the column header font color is white</description>
+   <name>15_fontcolor_actions</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d6cefe44-5515-4698-8cf1-455fb7e6066d</testCaseGuid>
+</TestCaseEntity>

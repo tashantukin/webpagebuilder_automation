@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the plugin logo is present</description>
+   <name>02_verify_logo_is_present</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>65f2bcf4-2223-4ab0-9328-a24c79bf7506</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify if column last updated  font color is white</description>
+   <name>10_column_lastupdated</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e2d39f48-8c70-41ab-9c39-5f0f42806fc4</testCaseGuid>
+</TestCaseEntity>

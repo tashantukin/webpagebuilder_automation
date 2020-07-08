@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the Status column header font color is white</description>
+   <name>13_fontcolor_status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2b073be-872a-4ea8-9184-57c5663ae7c9</testCaseGuid>
+</TestCaseEntity>

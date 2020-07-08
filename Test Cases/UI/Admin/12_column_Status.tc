@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify if the Status column is present</description>
+   <name>12_column_Status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe2c0c1e-3ba6-47b9-8810-a5f9e5559e44</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if column 'actions' is present</description>
+   <name>14_column_actions</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>36e22de4-d3ff-43d7-93b3-d3a88e6aca7d</testCaseGuid>
+</TestCaseEntity>

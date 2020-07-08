@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if title column name is present</description>
+   <name>06_column_title</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>39549619-5c1a-48e6-b259-66354b846bda</testCaseGuid>
+</TestCaseEntity>
