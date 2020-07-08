@@ -22,3 +22,5 @@ WebUI.click(findTestObject('webpage_admin/span_Plug-ins'))
 
 WebUI.waitForElementPresent(findTestObject('webpage_admin/a_Web Page Builder'), 0)
 
+WebUI.click(findTestObject('webpage_admin/a_Web Page Builder'))
+
