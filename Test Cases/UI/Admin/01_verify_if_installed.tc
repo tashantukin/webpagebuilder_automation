@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the plugin is installed</description>
+   <name>01_verify_if_installed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dae2b31b-8ed0-4e09-940c-d29d1b1d615d</testCaseGuid>
+</TestCaseEntity>
