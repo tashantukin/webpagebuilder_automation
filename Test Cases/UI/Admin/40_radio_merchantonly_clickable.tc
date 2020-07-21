@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if radio button for Merchant only is clickable</description>
+   <name>40_radio_merchantonly_clickable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>82dfb5c5-ed0d-49ca-ba56-298281e927d2</testCaseGuid>
+</TestCaseEntity>

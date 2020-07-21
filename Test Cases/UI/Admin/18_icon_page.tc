@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if Icon is present on the page.</description>
+   <name>18_icon_page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cea07ef6-5f84-497f-8833-f7c158fcf99e</testCaseGuid>
+</TestCaseEntity>

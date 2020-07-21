@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if radio button Hide is present on the page</description>
+   <name>33_radio_hide</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4dcf1f99-a7f2-4e4d-90bc-7bf7e1c6581a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if radio button 'Merchants Only is present on the page</description>
+   <name>37_radio_merchantsonly</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>69274934-5217-4b3e-a025-56b28b69f284</testCaseGuid>
+</TestCaseEntity>

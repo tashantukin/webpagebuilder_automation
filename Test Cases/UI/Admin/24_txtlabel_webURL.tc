@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if text label Web URL is present on page.</description>
+   <name>24_txtlabel_webURL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6d727570-f6f7-4f3e-9b27-58df06a00d1b</testCaseGuid>
+</TestCaseEntity>

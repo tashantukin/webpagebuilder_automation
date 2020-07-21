@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if radio button All users is clickable</description>
+   <name>38_radio_allusers_clickable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6459bfe1-0069-46e1-ac9c-616144f6e0a7</testCaseGuid>
+</TestCaseEntity>

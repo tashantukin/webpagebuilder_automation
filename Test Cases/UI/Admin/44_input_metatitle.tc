@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if input box for meta title is present on the page</description>
+   <name>44_input_metatitle</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8d81f057-68ae-42d1-89fa-308cb2a21429</testCaseGuid>
+</TestCaseEntity>

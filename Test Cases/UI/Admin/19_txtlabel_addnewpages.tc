@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if text label 'Add new pages is present beside the icon</description>
+   <name>19_txtlabel_addnewpages</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df54dd9d-7d52-46ab-a0d5-6c5feabad767</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if radio button for merchant and buyers is clickable</description>
+   <name>39_radio_merchantbuyers_clickable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>244b2d2d-008e-4ce4-8fae-568ab52a8d5b</testCaseGuid>
+</TestCaseEntity>

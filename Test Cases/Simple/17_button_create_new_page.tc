@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if Clicking Create new page will redirect to create page.</description>
+   <name>17_button_create_new_page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3e974c2a-48aa-4a8e-95e8-445d3bdee235</testCaseGuid>
+</TestCaseEntity>

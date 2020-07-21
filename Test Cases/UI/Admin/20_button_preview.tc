@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if PREVIEW button is present on the page</description>
+   <name>20_button_preview</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>51c9612b-916d-4c31-adb8-a922b188b1f4</testCaseGuid>
+</TestCaseEntity>

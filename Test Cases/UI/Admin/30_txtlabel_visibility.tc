@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if Text label Visibility is present on page</description>
+   <name>30_txtlabel_visibility</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0bbc3e26-32e3-4668-8f0b-4171d2b0ae7f</testCaseGuid>
+</TestCaseEntity>

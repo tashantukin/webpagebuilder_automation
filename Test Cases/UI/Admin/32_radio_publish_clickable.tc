@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if Radio button publish is clickable</description>
+   <name>32_radio_publish_clickable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>98f06e42-e4c2-4c96-a8f3-0de709b28f71</testCaseGuid>
+</TestCaseEntity>

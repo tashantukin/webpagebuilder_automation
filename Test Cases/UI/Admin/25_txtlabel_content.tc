@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if text label Content is present on the page</description>
+   <name>25_txtlabel_content</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>664c1cee-2a21-4152-be04-eda05846659f</testCaseGuid>
+</TestCaseEntity>

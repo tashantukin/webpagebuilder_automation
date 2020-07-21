@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if input box for title is present on the page</description>
+   <name>45_input_title</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f2fe5b67-6c05-45af-aa11-59c784bbbba7</testCaseGuid>
+</TestCaseEntity>

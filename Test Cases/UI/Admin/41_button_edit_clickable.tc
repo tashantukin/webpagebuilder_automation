@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if Edit button in meta title is clickable</description>
+   <name>41_button_edit_clickable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea0a914c-d886-45d1-9aaf-5338dfce8388</testCaseGuid>
+</TestCaseEntity>

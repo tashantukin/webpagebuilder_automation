@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if Button edit is present on the page</description>
+   <name>28_button_edit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>14008269-c4f5-4815-8422-e95687f551e4</testCaseGuid>
+</TestCaseEntity>

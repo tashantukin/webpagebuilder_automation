@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if text label Page Title is present on the page</description>
+   <name>23_txtlabel_pagetitle</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a4ad21f5-ad98-4fc1-a2dc-80632c2c892e</testCaseGuid>
+</TestCaseEntity>

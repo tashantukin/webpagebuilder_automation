@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if text label Status is present on the page</description>
+   <name>29_txtlabel_status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>49bb8e9c-96bc-4bc7-8be7-d056f564a60d</testCaseGuid>
+</TestCaseEntity>

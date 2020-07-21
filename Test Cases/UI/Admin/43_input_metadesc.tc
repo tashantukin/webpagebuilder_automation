@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if Meta description input box is present on the page</description>
+   <name>43_input_metadesc</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de9764bd-07a7-4f15-959a-a62db6b9d818</testCaseGuid>
+</TestCaseEntity>

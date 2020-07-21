@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if radio button HIDE is clickable</description>
+   <name>34_radio_hide_clickable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee79d929-4e22-4da0-9c7a-6ec7dddcc39c</testCaseGuid>
+</TestCaseEntity>

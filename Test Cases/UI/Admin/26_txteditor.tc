@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if text editor is present on the page</description>
+   <name>26_txteditor</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d584737e-5eb7-464e-879a-15167f5c4a17</testCaseGuid>
+</TestCaseEntity>

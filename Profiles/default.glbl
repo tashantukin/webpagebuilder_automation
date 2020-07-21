@@ -6,17 +6,27 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'youhadmeathello.test.arcadier.io/admin'</initValue>
+      <initValue>'0713bp07.staging.arcadier.io/admin'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'domtest'</initValue>
+      <initValue>'0713bp07'</initValue>
       <name>username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'welcome8'</initValue>
       <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Sample 1'</initValue>
+      <name>Title</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Sample content'</initValue>
+      <name>Body</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if Publish radio button is present on page</description>
+   <name>31_radio_publish</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>711beefa-3660-49af-b3a3-56943c6ba031</testCaseGuid>
+</TestCaseEntity>

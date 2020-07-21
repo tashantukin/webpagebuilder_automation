@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if input box for web url is present on the page</description>
+   <name>46_input_weburl</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1d38374d-360c-4f7c-ba03-cffc1824f406</testCaseGuid>
+</TestCaseEntity>

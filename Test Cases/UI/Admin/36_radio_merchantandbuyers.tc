@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if radio button Merchants and reg buyers is present on the page</description>
+   <name>36_radio_merchantandbuyers</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aabed6dc-1515-4739-8ea2-99cecdd4d08b</testCaseGuid>
+</TestCaseEntity>

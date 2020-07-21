@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if Add Campaing button is clickable</description>
+   <name>16_verify_addcampaign_clickable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a83a012d-d642-4ab0-bef5-9f335a16c371</testCaseGuid>
+</TestCaseEntity>
