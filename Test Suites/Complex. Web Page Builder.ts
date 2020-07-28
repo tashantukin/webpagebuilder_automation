@@ -28,4 +28,34 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Complex/Delete Page</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>d7e119c1-2fb1-4802-8852-86f92e1eebb6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Complex/Page Status Hidden</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4f5b075f-f288-46c2-b5b0-7ce33474f4b7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Complex/Page Status Publish</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e200ba03-2f8f-415d-b87c-0b86f7544568</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Complex/Page Visibility All Users</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>86cd26b7-774e-4ad2-9617-3d9e0f27e646</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Complex/Page Visibility Merchant Buyer</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>30b50538-ce52-459b-b330-558bffce9f99</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Complex/Page Visibility Merchant Only</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

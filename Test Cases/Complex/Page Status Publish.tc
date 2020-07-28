@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify if the page is visible if the status is set to Visible</description>
+   <name>Page Status Publish</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>abf74157-bd3a-41d1-baf4-a74fc05c71d9</testCaseGuid>
+</TestCaseEntity>

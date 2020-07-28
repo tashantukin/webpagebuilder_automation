@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify if all the users  even guest can display the created page</description>
+   <name>Page Visibility All Users</name>
+   <tag></tag>
+   <comment>Start External Link Config
+Login to merchant user
+Login in buyer page 
+Verify for Guest users</comment>
+   <testCaseGuid>af8f937e-063e-4c8e-978c-e5dcbfa35cba</testCaseGuid>
+</TestCaseEntity>

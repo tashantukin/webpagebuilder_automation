@@ -29,4 +29,44 @@
       <initValue>'Sample content'</initValue>
       <name>Body</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Merchant Only'</initValue>
+      <name>title_merchantOnly</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://0713bp07.staging.arcadier.io/'</initValue>
+      <name>url_user</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'risaseller'</initValue>
+      <name>merchant_username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'welcome8'</initValue>
+      <name>merchant_pass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'tashabuyer2'</initValue>
+      <name>buyer_username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'welcome8'</initValue>
+      <name>buyer_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'All Users'</initValue>
+      <name>title_all_user</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Buyer and Merchant'</initValue>
+      <name>title_merchant_buyer</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

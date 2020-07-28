@@ -18,11 +18,21 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('UI/Admin/01_verify_if_installed'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('actions_buttons/i_Published_icon icon-delete'))
+WebUI.click(findTestObject('staging_createPage/button_createpage'))
 
-WebUI.click(findTestObject('actions_buttons/delete_ok'))
+WebUI.setText(findTestObject('staging_createPage/input_title'), GlobalVariable.Title)
 
-WebUI.delay(2)
+WebUI.setText(findTestObject('iframe_body'), GlobalVariable.Body)
 
-WebUI.verifyElementNotPresent(findTestObject('created_page/td_Sample 1'), 0)
+WebUI.click(findTestObject('add_page/label_Hide'))
+
+WebUI.click(findTestObject('staging_createPage/button_save'))
+
+WebUI.click(findTestObject('actions_buttons/img'))
+
+WebUI.switchToWindowIndex(1)
+
+WebUI.waitForElementVisible(findTestObject('404_error/404_error'), 0)
+
+WebUI.verifyElementPresent(findTestObject('404_error/404_error'), 0)
 

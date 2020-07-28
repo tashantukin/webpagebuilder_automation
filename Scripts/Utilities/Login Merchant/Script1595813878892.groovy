@@ -16,13 +16,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('UI/Admin/01_verify_if_installed'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('actions_buttons/i_Published_icon icon-delete'))
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('actions_buttons/delete_ok'))
+WebUI.navigateToUrl(GlobalVariable.url_user)
 
-WebUI.delay(2)
+WebUI.click(findTestObject('user_login/a_REGISTER  SIGN IN'))
 
-WebUI.verifyElementNotPresent(findTestObject('created_page/td_Sample 1'), 0)
+WebUI.waitForElementPresent(findTestObject('user_login/input_Your emailusername_username'), 0)
+
+WebUI.setText(findTestObject('user_login/input_Your emailusername_username'), GlobalVariable.merchant_username)
+
+WebUI.setText(findTestObject('user_login/input_Your password_password'), GlobalVariable.merchant_pass)
+
+WebUI.click(findTestObject('user_login/input_Your password_login-submit'))
 

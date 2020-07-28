@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the created page is visible for Merchant Only</description>
+   <name>Page Visibility Merchant Only</name>
+   <tag></tag>
+   <comment>Start External Link Config
+Login to merchant user
+Login in buyer page 
+Verify for Guest users</comment>
+   <testCaseGuid>3f15ca94-1b61-4057-9295-e0fce7f39cf3</testCaseGuid>
+</TestCaseEntity>

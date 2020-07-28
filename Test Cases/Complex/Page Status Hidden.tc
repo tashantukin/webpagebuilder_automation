@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the page is not  visible if the status is set to Hidden</description>
+   <name>Page Status Hidden</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c5a65ea7-21a5-4e36-981c-2e1c59b0ad73</testCaseGuid>
+</TestCaseEntity>
