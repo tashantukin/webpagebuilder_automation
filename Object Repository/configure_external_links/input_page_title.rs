@@ -7,13 +7,17 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@name='username'])[3]</value>
+         <value>//div[3]/div[2]/div[2]/div/div[1]/div[2]/form/div[2]/div[1]/div/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;header-links&quot;)/form[@class=&quot;form-field-controler&quot;]/div[@class=&quot;row header-link-row&quot;]/div[@class=&quot;col-md-4&quot;]/div[@class=&quot;form-group&quot;]/input[@class=&quot;form-control additional-row-username&quot;][count(. | //input[@type = 'text' and @placeholder = 'e.g Blog' and @name = 'username']) = count(//input[@type = 'text' and @placeholder = 'e.g Blog' and @name = 'username'])]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -55,7 +59,7 @@
       <value>30</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

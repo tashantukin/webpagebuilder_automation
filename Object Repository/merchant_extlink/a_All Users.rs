@@ -9,18 +9,22 @@
          <key>XPATH</key>
          <value>//div[@id='videoBannerBG']/div/div/div[2]/div/ul/li[4]/ul/li[2]/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = 'All Users' or . = 'All Users')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>

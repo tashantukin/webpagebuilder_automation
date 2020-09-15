@@ -38,15 +38,19 @@ WebUI.click(findTestObject('configure_external_links/link_configuration'))
 
 WebUI.click(findTestObject('configure_external_links/link_externallinks'))
 
-WebUI.click(findTestObject('configure_external_links/button_delete'))
+//WebUI.click(findTestObject('configure_external_links/button_delete'))
+//if (WebUI.verifyElementVisible(findTestObject('configure_external_links/button_delete'))) {
+//   
+//	
+//} 
+//else {
+WebUI.setText(findTestObject('CONF_LINK/title'), 'All Users')
 
-WebUI.setText(findTestObject('configure_external_links/input_page_title'), 'All Users')
+WebUI.setText(findTestObject('CONF_LINK/link'), 'https://diagonalley.staging.arcadier.io/pages/all-users')
 
-WebUI.setText(findTestObject('configure_external_links/input_link'), 'https://0713bp07.staging.arcadier.io/pages/all-users')
+WebUI.click(findTestObject('CONF_LINK/button_Add'))
 
-WebUI.click(findTestObject('configure_external_links/button_Add'))
-
-WebUI.click(findTestObject('configure_external_links/button_Save'))
+WebUI.click(findTestObject('CONF_LINK/button_Save'))
 
 WebUI.comment('Login to merchant user')
 
@@ -80,7 +84,9 @@ WebUI.navigateToUrl(GlobalVariable.url_user)
 
 WebUI.click(findTestObject('guess_user/span_VIEW CART_dd-pointer dd-pointer-down'))
 
-WebUI.click(findTestObject('guest_user/a_All Users_guest'))
+WebUI.click(findTestObject('LINKS/a_All Users'))
 
 WebUI.verifyElementNotPresent(findTestObject('guess_user/h2_404'), 0)
+
+WebUI.callTestCase(findTestCase('Utilities/Delete Links'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -38,17 +38,20 @@ WebUI.click(findTestObject('configure_external_links/link_configuration'))
 
 WebUI.click(findTestObject('configure_external_links/link_externallinks'))
 
-WebUI.click(findTestObject('configure_external_links/button_delete'))
+//if (WebUI.verifyElementVisible(findTestObject('configure_external_links/button_delete') == true)) {
+//	WebUI.click(findTestObject('configure_external_links/button_delete'))
+//	
+//}
+//else {
+WebUI.setText(findTestObject('CONF_LINK/title'), 'Merchant and Buyer')
 
-WebUI.setText(findTestObject('configure_external_links/input_page_title'), 'Merchant and Buyer')
+WebUI.setText(findTestObject('CONF_LINK/link'), 'https://diagonalley.staging.arcadier.io/pages/buyer-and-merchant')
 
-WebUI.setText(findTestObject('configure_external_links/input_link'), 'https://0713bp07.staging.arcadier.io/pages/buyer-and-merchant')
+WebUI.click(findTestObject('CONF_LINK/button_Add'))
 
-WebUI.click(findTestObject('configure_external_links/button_Add'))
+WebUI.click(findTestObject('CONF_LINK/button_Save'))
 
 WebUI.delay(3)
-
-WebUI.click(findTestObject('configure_external_links/button_Save'))
 
 WebUI.comment('Login to merchant user')
 
@@ -56,7 +59,7 @@ WebUI.callTestCase(findTestCase('Utilities/Login Merchant'), [:], FailureHandlin
 
 WebUI.click(findTestObject('redirect_merchantOnly/span_()_dd-pointer dd-pointer-down'))
 
-WebUI.click(findTestObject('merchant_extlink/a_All Users'))
+WebUI.click(findTestObject('LINKS/a_Merchant and Buyer'))
 
 WebUI.verifyElementNotPresent(findTestObject('404_error/404_error'), 0)
 
@@ -68,7 +71,7 @@ WebUI.callTestCase(findTestCase('Utilities/Login Buyer'), [:], FailureHandling.S
 
 WebUI.click(findTestObject('redirect_merchantOnly/span_()_dd-pointer dd-pointer-down'))
 
-WebUI.click(findTestObject('buyer_extlink/a_All Users'))
+WebUI.click(findTestObject('LINKS/a_Merchant and Buyer'))
 
 WebUI.verifyElementNotPresent(findTestObject('404_error/404_error'), 0)
 
@@ -82,7 +85,9 @@ WebUI.navigateToUrl(GlobalVariable.url_user)
 
 WebUI.click(findTestObject('guess_user/span_VIEW CART_dd-pointer dd-pointer-down'))
 
-WebUI.click(findTestObject('guest_user/a_All Users_guest'))
+WebUI.click(findTestObject('LINKS/a_Merchant and Buyer'))
 
 WebUI.verifyElementNotPresent(findTestObject('guess_user/h2_404'), 0)
+
+WebUI.callTestCase(findTestCase('Utilities/Delete Links'), [:], FailureHandling.STOP_ON_FAILURE)
 

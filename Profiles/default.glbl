@@ -6,12 +6,12 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0713bp07.staging.arcadier.io/admin'</initValue>
+      <initValue>'http://diagonalley.staging.arcadier.io/admin'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0713bp07'</initValue>
+      <initValue>'codemafia'</initValue>
       <name>username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -36,12 +36,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://0713bp07.staging.arcadier.io/'</initValue>
+      <initValue>'https://diagonalley.staging.arcadier.io/'</initValue>
       <name>url_user</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'risaseller'</initValue>
+      <initValue>'codemafiaseller'</initValue>
       <name>merchant_username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -51,7 +51,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'tashabuyer2'</initValue>
+      <initValue>'codemafia'</initValue>
       <name>buyer_username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

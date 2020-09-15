@@ -3,6 +3,9 @@
    <description>To Verify if the created page is visible to buyers and merchants</description>
    <name>Page Visibility Merchant Buyer</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Start External Link Config
+Login to merchant user
+Login in buyer page 
+Verify for Guest users</comment>
    <testCaseGuid>f9792364-3842-43f2-bf6d-34c972ddef44</testCaseGuid>
 </TestCaseEntity>

@@ -38,15 +38,20 @@ WebUI.click(findTestObject('configure_external_links/link_configuration'))
 
 WebUI.click(findTestObject('configure_external_links/link_externallinks'))
 
-WebUI.click(findTestObject('configure_external_links/button_delete'))
+//if (WebUI.verifyElementVisible(findTestObject('configure_external_links/button_delete') == true)) {
+//	
+//	WebUI.click(findTestObject('configure_external_links/button_delete'))
+//	
+////}
+//}
+//else {
+WebUI.setText(findTestObject('CONF_LINK/title'), 'Merchant Only')
 
-WebUI.setText(findTestObject('configure_external_links/input_page_title'), 'Merchant Only')
+WebUI.setText(findTestObject('CONF_LINK/link'), 'https://diagonalley.staging.arcadier.io/pages/merchant-only')
 
-WebUI.setText(findTestObject('configure_external_links/input_link'), 'https://0713bp07.staging.arcadier.io/pages/merchant-only')
+WebUI.click(findTestObject('CONF_LINK/button_Add'))
 
-WebUI.click(findTestObject('configure_external_links/button_Add'))
-
-WebUI.click(findTestObject('configure_external_links/button_Save'))
+WebUI.click(findTestObject('CONF_LINK/button_Save'))
 
 WebUI.comment('Login to merchant user')
 
@@ -55,6 +60,8 @@ WebUI.callTestCase(findTestCase('Utilities/Login Merchant'), [:], FailureHandlin
 WebUI.click(findTestObject('redirect_merchantOnly/span_()_dd-pointer dd-pointer-down'))
 
 WebUI.click(findTestObject('redirect_merchantOnly/a_Merchant Only'))
+
+WebUI.delay(2)
 
 WebUI.verifyElementVisible(findTestObject('redirect_merchantOnly/h1_Merchant Only'))
 
@@ -68,7 +75,7 @@ WebUI.click(findTestObject('redirect_merchantOnly/span_()_dd-pointer dd-pointer-
 
 WebUI.click(findTestObject('redirect_merchantOnly/a_Merchant Only'))
 
-WebUI.verifyElementPresent(findTestObject('404_error/404_error'), 0)
+WebUI.verifyElementPresent(findTestObject('404_error/404_error'),  FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.comment('Verify for Guest users')
 
@@ -83,4 +90,6 @@ WebUI.click(findTestObject('guess_user/span_VIEW CART_dd-pointer dd-pointer-down
 WebUI.click(findTestObject('guess_user/a_Merchant Only'))
 
 WebUI.verifyElementNotPresent(findTestObject('guess_user/h2_404'), 0)
+
+WebUI.callTestCase(findTestCase('Utilities/Delete Links'), [:], FailureHandling.STOP_ON_FAILURE)
 
