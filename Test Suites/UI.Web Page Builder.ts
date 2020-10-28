@@ -9,6 +9,7 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>f088f1af-bcfd-451c-9485-83885706875a</testSuiteGuid>
    <testCaseLink>
       <guid>0b9e6567-47d1-4930-b9cc-09c363438dae</guid>
@@ -125,16 +126,16 @@
       <testCaseId>Test Cases/UI/Admin/20_button_preview</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>44a4bd72-f47a-4e38-9635-1d18087f4c3d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/UI/Admin/21_button_cancel</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>26361714-b178-4b71-9a6a-d4d4b3880a53</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/UI/Admin/22_button_save</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>44a4bd72-f47a-4e38-9635-1d18087f4c3d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/UI/Admin/21_button_cancel</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a310b2f4-9f0a-45a1-9439-3a47b7dee31e</guid>

@@ -41,7 +41,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'codemafiaseller'</initValue>
+      <initValue>'codemafia'</initValue>
       <name>merchant_username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -51,7 +51,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'codemafia'</initValue>
+      <initValue>'codemafiabuyer'</initValue>
       <name>buyer_username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
