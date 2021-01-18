@@ -46,7 +46,7 @@ WebUI.click(findTestObject('configure_external_links/link_externallinks'))
 //else {
 WebUI.setText(findTestObject('CONF_LINK/title'), 'All Users')
 
-WebUI.setText(findTestObject('CONF_LINK/link'), 'https://diagonalley.staging.arcadier.io/pages/all-users')
+WebUI.setText(findTestObject('CONF_LINK/link'), 'https://youhadmeathelloworld.arcadier.io/pages/all-users')
 
 WebUI.click(findTestObject('CONF_LINK/button_Add'))
 

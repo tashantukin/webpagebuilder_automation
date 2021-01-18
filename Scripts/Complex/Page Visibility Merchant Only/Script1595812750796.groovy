@@ -47,7 +47,7 @@ WebUI.click(findTestObject('configure_external_links/link_externallinks'))
 //else {
 WebUI.setText(findTestObject('CONF_LINK/title'), 'Merchant Only')
 
-WebUI.setText(findTestObject('CONF_LINK/link'), 'https://diagonalley.staging.arcadier.io/pages/merchant-only')
+WebUI.setText(findTestObject('CONF_LINK/link'), 'https://youhadmeathelloworld.arcadier.io/pages/merchant-only')
 
 WebUI.click(findTestObject('CONF_LINK/button_Add'))
 
@@ -75,7 +75,7 @@ WebUI.click(findTestObject('redirect_merchantOnly/span_()_dd-pointer dd-pointer-
 
 WebUI.click(findTestObject('redirect_merchantOnly/a_Merchant Only'))
 
-WebUI.verifyElementPresent(findTestObject('404_error/404_error'),  FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('404_error/404_error'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.comment('Verify for Guest users')
 

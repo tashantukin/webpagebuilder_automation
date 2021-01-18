@@ -28,7 +28,7 @@ WebUI.waitForElementPresent(findTestObject('user_login/input_Your emailusername_
 
 WebUI.setText(findTestObject('user_login/input_Your emailusername_username'), GlobalVariable.merchant_username)
 
-WebUI.setText(findTestObject('user_login/input_Your password_password'), GlobalVariable.merchant_pass)
+WebUI.setText(findTestObject('user_login/input_Your password_password'), GlobalVariable.merchant_password)
 
 WebUI.click(findTestObject('user_login/input_Your password_login-submit'))
 

@@ -16,13 +16,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('UI/Admin/01_verify_if_installed'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('staging_createPage/button_createpage'))
+WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('staging_createPage/input_title'), GlobalVariable.Title)
+WebUI.navigateToUrl(GlobalVariable.url)
 
-WebUI.setText(findTestObject('iframe_body'), GlobalVariable.Body)
+WebUI.waitForElementPresent(findTestObject('admin_login/input_Your Email  Username_username'), 0)
 
-WebUI.click(findTestObject('staging_createPage/button_save'))
+WebUI.setText(findTestObject('admin_login/input_Your Email  Username_username'), GlobalVariable.admin_username)
+
+WebUI.setText(findTestObject('admin_login/input_Your Password_password'), GlobalVariable.admin_password)
+
+WebUI.click(findTestObject('admin_login/input_Your Password_login-submit'))
 

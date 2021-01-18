@@ -26,7 +26,7 @@ WebUI.waitForElementPresent(findTestObject('admin_login/input_Your Email  Userna
 
 WebUI.setText(findTestObject('admin_login/input_Your Email  Username_username'), GlobalVariable.username)
 
-WebUI.setText(findTestObject('admin_login/input_Your Password_password'), GlobalVariable.password)
+WebUI.setText(findTestObject('admin_login/input_Your Password_password'), GlobalVariable.admin_password)
 
 WebUI.click(findTestObject('admin_login/input_Your Password_login-submit'))
 
