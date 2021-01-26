@@ -6,11 +6,15 @@
    <elementGuidId>5342ca00-c9d2-4922-a8bd-556a3800aa8a</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Merchant Only' or . = 'Merchant Only')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='videoBannerBG']/div/div/div[2]/div/ul/li[3]/ul/li[2]/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,7 +24,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>

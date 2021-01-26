@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>Staging Marketplace</name>
+   <name>Live Marketplace - Copy (1)</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://youhadmeathelloworld.staging.arcadier.io/admin/'</initValue>
+      <initValue>'https://youhadmeathelloworld.arcadier.io/admin/'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -36,7 +36,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://youhadmeathelloworld.staging.arcadier.io'</initValue>
+      <initValue>'https://youhadmeathelloworld.arcadier.io'</initValue>
       <name>url_user</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -56,7 +56,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'123456'</initValue>
+      <initValue>'sprangfromthehead'</initValue>
       <name>buyer_password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -68,20 +68,5 @@
       <description></description>
       <initValue>'Buyer and Merchant'</initValue>
       <name>title_merchant_buyer</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://youhadmeathelloworld.staging.arcadier.io/pages/buyer-and-merchant'</initValue>
-      <name>url_link</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://youhadmeathelloworld.staging.arcadier.io/pages/merchant-only'</initValue>
-      <name>url_link_merchant</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://youhadmeathelloworld.staging.arcadier.io/pages/all-users'</initValue>
-      <name>url_link_allusers</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

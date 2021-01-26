@@ -6,12 +6,16 @@
    <elementGuidId>fe0fa8a2-3446-452d-bdbb-39e6f2eb0388</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>ul.seller-nav.dropdown-menu > li > a</value>
+         <key>BASIC</key>
+         <value>//a[(text() = 'All Users' or . = 'All Users')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='videoBannerBG']/div/div/div[2]/div/ul/li[4]/ul/li/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.seller-nav.dropdown-menu > li > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +28,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>

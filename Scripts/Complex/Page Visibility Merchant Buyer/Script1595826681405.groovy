@@ -45,7 +45,7 @@ WebUI.click(findTestObject('configure_external_links/link_externallinks'))
 //else {
 WebUI.setText(findTestObject('CONF_LINK/title'), 'Merchant and Buyer')
 
-WebUI.setText(findTestObject('CONF_LINK/link'), 'https://youhadmeathelloworld.arcadier.io/pages/buyer-and-merchant')
+WebUI.setText(findTestObject('CONF_LINK/link'), GlobalVariable.url_link)
 
 WebUI.click(findTestObject('CONF_LINK/button_Add'))
 
