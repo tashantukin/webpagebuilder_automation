@@ -69,4 +69,19 @@
       <initValue>'Buyer and Merchant'</initValue>
       <name>title_merchant_buyer</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://youhadmeathelloworld.arcadier.io/pages/buyer-and-merchant'</initValue>
+      <name>url_link</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://youhadmeathelloworld.arcadier.io/pages/merchant-only'</initValue>
+      <name>url_link_merchant</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://youhadmeathelloworld.arcadier.io/pages/all-users'</initValue>
+      <name>url_link_allusers</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
